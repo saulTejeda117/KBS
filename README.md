@@ -1,6 +1,10 @@
 # Hands-on
+
 ## Monkey and Bananas
-<p> El primer ejercicio realizado para la clase fue el problema del mono y las bananas, el cual se llevó a cabo en <code>CLIPS</code> el código fuente de este programa se puede encontrar a continuación:</p>
+<p> Este pirimer ejercicio de la clase consistió en resolver el problema del mono y las banas por medio del lenguaje de programación basado en reglas <a href='https://www.clipsrules.net' target="_blank"><code>CLIPS</code></a>.
+
+### Planteamiento del problema
+Planteamiento del problema a resolver: Un mono está en una habitación, en el techo de dicha habitación se encuentra un racimo de plátanos, que está fuera del alcance del mono. Sin embargo, en la habitación también hay una silla, la cual puede ayudar al simio a alcanzar los plátanos, de manera que el mono debe de moverse y colocar la silla bajo los platanos para así poder alcanzarlos. Con esto en mente, desarrollamos la secuencia correcta de pasos a seguir para cumplir el objetivo  el código fuente de este programa se puede encontrar a continuación:</p>
 
 ```
 (defrule r1 (monkey near door) (monkey farfrom window) => 
@@ -35,3 +39,6 @@
 (defrule r6 (monkey below-banana) (monkey near box) (monkey hands-free) (monkey over the box) (monkey can take the banana) => 
 (printout t "monkey took the banana" crlf)
 ```
+### Resultados
+<p>Lo que como resultado nos muestra las siguientes impresiones de pantalla:</p>
+<img width="1000" src ="src/WhatsApp Image 2022-10-02 at 8.44.48 PM (1).jpeg"><br>Fig. 1 Resultados Obtenidos</img><br>
