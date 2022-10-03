@@ -4,11 +4,12 @@
 | <a href='https://github.com/saulTejeda117/Hands-on/blob/main/README.md#monkey-and-bananas'><p>Monkey and Bananas</p></a>|
 
 ## Monkey and Bananas
-<p> Este pirimer ejercicio de la clase consistió en resolver el problema del mono y las banas por medio del lenguaje de programación basado en reglas <a href='https://www.clipsrules.net' target="_blank"><code>CLIPS</code></a>.
+<p align = 'justify'> Este pirimer ejercicio de la clase consistió en resolver el problema del mono y las banas por medio del lenguaje de programación basado en reglas <a href='https://www.clipsrules.net' target="_blank"><code>CLIPS</code></a>.</p>
 
 ### Planteamiento del problema
-Planteamiento del problema a resolver: Un mono está en una habitación, en el techo de dicha habitación se encuentra un racimo de plátanos, que está fuera del alcance del mono. Sin embargo, en la habitación también hay una silla, la cual puede ayudar al simio a alcanzar los plátanos, de manera que el mono debe de moverse y colocar la silla bajo los platanos para así poder alcanzarlos. Con esto en mente, desarrollamos la secuencia correcta de pasos a seguir para cumplir el objetivo  el código fuente de este programa se puede encontrar a continuación:</p>
+<p align = 'justify'>Planteamiento del problema a resolver: Un mono está en una habitación, en el techo de dicha habitación se encuentra un racimo de plátanos, que está fuera del alcance del mono. Sin embargo, en la habitación también hay una silla, la cual puede ayudar al simio a alcanzar los plátanos, de manera que el mono debe de moverse y colocar la silla bajo los platanos para así poder alcanzarlos. Con esto en mente, desarrollamos la secuencia correcta de pasos a seguir para cumplir el objetivo  el código fuente de este programa se puede encontrar a continuación:</p>
 
+### Desarrollo
 ```
 (defrule r1 (monkey near door) (monkey farfrom window) => 
 (printout  t "monkey goes to the box" crlf) 
