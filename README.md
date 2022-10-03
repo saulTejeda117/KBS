@@ -41,4 +41,4 @@ Planteamiento del problema a resolver: Un mono está en una habitación, en el t
 ```
 ### Resultados
 <p>Lo que como resultado nos muestra las siguientes impresiones de pantalla:</p>
-<img width="1000" src ="src/WhatsApp Image 2022-10-02 at 8.44.48 PM (1).jpeg"><br>Fig. 1 Resultados Obtenidos</img><br>
+<img width="700" src ="src/WhatsApp Image 2022-10-02 at 8.44.48 PM (1).jpeg"><br>Fig. 1 Resultados Obtenidos</img><br>
