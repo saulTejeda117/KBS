@@ -1,4 +1,7 @@
 # Hands-on
+| Contenido: Actividades |
+| ------------- |
+| <a href='https://github.com/saulTejeda117/Hands-on/blob/main/README.md#monkey-and-bananas'><p>Monkey and Bananas</p></a>|
 
 ## Monkey and Bananas
 <p> Este pirimer ejercicio de la clase consistió en resolver el problema del mono y las banas por medio del lenguaje de programación basado en reglas <a href='https://www.clipsrules.net' target="_blank"><code>CLIPS</code></a>.
