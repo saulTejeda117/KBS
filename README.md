@@ -2,6 +2,7 @@
 | Contenido: Actividades |
 | ------------- |
 | <a href='https://github.com/saulTejeda117/Hands-on/blob/main/README.md#monkey-and-bananas'><p>Monkey and Bananas</p></a>|
+| <a href='https://github.com/saulTejeda117/Hands-on/blob/main/README.md#monkey-and-bananas'><p>Monkey and Bananas</p></a>|
 
 ## Monkey and Bananas
 <p align = 'justify'> Este pirimer ejercicio de la clase consistió en resolver el problema del mono y las banas por medio del lenguaje de programación basado en reglas <a href='https://www.clipsrules.net' target="_blank"><code>CLIPS</code></a>.</p>
@@ -45,4 +46,4 @@
 ```
 ### Resultados
 <p>Lo que como resultado nos muestra las siguientes impresiones de pantalla:</p>
-<img width="700" src ="src/WhatsApp Image 2022-10-02 at 8.44.48 PM (1).jpeg"><br>Fig. 1 Resultados Obtenidos</img><br>
+<img width="700" src ="src/WhatsApp Image 2022-10-02 at 8.44.48 PM (1).jpeg">Fig. 1 Resultados Obtenidos</img><br>
