@@ -1,14 +1,17 @@
 # Hands-on
 | Contenido: Actividades |
 | ------------- |
+| <a href='https://github.com/saulTejeda117/Hands-on/blob/main/README.md#monkey-and-bananas'><p>CLIPS Setting Up</p></a>|
 | <a href='https://github.com/saulTejeda117/Hands-on/blob/main/README.md#monkey-and-bananas'><p>Monkey and Bananas</p></a>|
-| <a href='https://github.com/saulTejeda117/Hands-on/blob/main/README.md#monkey-and-bananas'><p>Monkey and Bananas</p></a>|
+
+## CLIPS Setting Up
+<p align = 'justify'> Esta pirimera actividad de la clase consistió en llevar a cabo el proceso de instalación del lenguaje de programación basado en reglas <a href='https://www.clipsrules.net' target="_blank"><code>CLIPS</code></a> en su versión 6.24, para posteriormente realizar el setting up asociado:</p>
+<img width="700" src ="src/WhatsApp Image 2022-11-20 at 11.56.57 AM.jpeg">Fig. 1 CLIPS Ejecutandose</img>
+<br>
 
 ## Monkey and Bananas
-<p align = 'justify'> Este pirimer ejercicio de la clase consistió en resolver el problema del mono y las banas por medio del lenguaje de programación basado en reglas <a href='https://www.clipsrules.net' target="_blank"><code>CLIPS</code></a>.</p>
 
-### Planteamiento del problema
-<p align = 'justify'>Planteamiento del problema a resolver: Un mono está en una habitación, en el techo de dicha habitación se encuentra un racimo de plátanos, que está fuera del alcance del mono. Sin embargo, en la habitación también hay una silla, la cual puede ayudar al simio a alcanzar los plátanos, de manera que el mono debe de moverse y colocar la silla bajo los platanos para así poder alcanzarlos. Con esto en mente, desarrollamos la secuencia correcta de pasos a seguir para cumplir el objetivo  el código fuente de este programa se puede encontrar a continuación:</p>
+<p align = 'justify'>Este ejercicio consistió en completar el problema del mono y las banas, desarrollado durante la clase, por medio del lenguaje de programación basado en reglas <a href='https://www.clipsrules.net' target="_blank"><code>CLIPS</code></a>. Planteamiento del problema a resolver: Un mono está en una habitación, en el techo de dicha habitación se encuentra un racimo de plátanos, que está fuera del alcance del mono. Sin embargo, en la habitación también hay una silla, la cual puede ayudar al simio a alcanzar los plátanos, de manera que el mono debe de moverse y colocar la silla bajo los platanos para así poder alcanzarlos. Con esto en mente, desarrollamos la secuencia correcta de pasos a seguir para cumplir el objetivo  el código fuente de este programa se puede encontrar a continuación:</p>
 
 ### Desarrollo
 ```
@@ -46,4 +49,4 @@
 ```
 ### Resultados
 <p>Lo que como resultado nos muestra las siguientes impresiones de pantalla:</p>
-<img width="700" src ="src/WhatsApp Image 2022-10-02 at 8.44.48 PM (1).jpeg">Fig. 1 Resultados Obtenidos</img><br>
+<img width="700" src ="src/WhatsApp Image 2022-10-02 at 8.44.48 PM (1).jpeg">Fig. 2 Resultados Obtenidos</img><br>
