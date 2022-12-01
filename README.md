@@ -1,4 +1,5 @@
-# Hands-on
+# Knowledge Based Systems Portfolio
+
 | Contenido |
 | ------------- |
 | <a href='https://github.com/saulTejeda117/KBS/edit/main/README.md#hands-on-1-clips-setting-up'><p>Hands On 1: CLIPS Setting Up</p></a>|
@@ -10,14 +11,24 @@
 
 ## Hands On 1: CLIPS Setting Up
 <p align = 'justify'> Esta pirimera actividad de la clase consistió en llevar a cabo el proceso de instalación del lenguaje de programación basado en reglas <a href='https://www.clipsrules.net' target="_blank"><code>CLIPS</code></a> en su versión 6.24, para posteriormente realizar el setting up asociado:</p>
-<img width="700" src ="src/WhatsApp Image 2022-11-20 at 11.56.57 AM.jpeg">Fig. 1 CLIPS Ejecutandose</img>
+<p align="center">
+<img width="700" src ="src/WhatsApp Image 2022-11-20 at 11.56.57 AM.jpeg"><br>Fig. 1 CLIPS Ejecutandose</img>
+</p>
 <br>
 
 ## Hands On 2: Monkey and Bananas
 
-<p align = 'justify'>Este ejercicio consistió en completar el problema del mono y las banas, desarrollado durante la clase, por medio del lenguaje de programación basado en reglas <a href='https://www.clipsrules.net' target="_blank"><code>CLIPS</code></a>. Planteamiento del problema a resolver: Un mono está en una habitación, en el techo de dicha habitación se encuentra un racimo de plátanos, que está fuera del alcance del mono. Sin embargo, en la habitación también hay una silla, la cual puede ayudar al simio a alcanzar los plátanos, de manera que el mono debe de moverse y colocar la silla bajo los platanos para así poder alcanzarlos. Con esto en mente, desarrollamos la secuencia correcta de pasos a seguir para cumplir el objetivo  el código fuente de este programa se puede encontrar a continuación:</p>
+<p align = 'justify'>Este ejercicio consistió en completar el problema del mono y las banas, desarrollado durante la clase, por medio del lenguaje de programación basado en reglas <a href='https://www.clipsrules.net' target="_blank"><code>CLIPS</code></a>. Planteamiento del problema a resolver: Un mono está en una habitación, en el techo de dicha habitación se encuentra un racimo de plátanos, que está fuera del alcance del mono. Sin embargo, en la habitación también hay una silla, la cual puede ayudar al simio a alcanzar los plátanos, de manera que el mono debe de moverse y colocar la silla bajo los platanos para así poder alcanzarlos. Con esto en mente, desarrollamos la secuencia correcta de pasos a seguir para cumplir el objetivo tal y como se aprecia en el  código <a href='https://github.com/saulTejeda117/KBS/blob/main/monkeyAndBananas' target="_blank"><code>Monkey and Bananas</code></a>, obteniendo el siguiente resultados:</p>
 
-### Desarrollo
+<p align="center">
+<img width="700" src ="src/WhatsApp Image 2022-10-02 at 8.44.48 PM (1).jpeg"><br>Fig. 2 Resultados Monkey and Bananas</img>
+</p>
+
+<br>
+
+## Hands On 3:
+<p>Lo que como resultado nos muestra las siguientes impresiones de pantalla:</p>
+
 ```
 (defrule r1 (monkey near door) (monkey farfrom window) => 
 (printout  t "monkey goes to the box" crlf) 
@@ -25,46 +36,41 @@
 (retract 1) 
 (retract 2))
 
-(defrule r2 (monkey near box) (monkey hands-free) => 
-(printout t "mokey took the box" crlf) (retract 4) 
-(assert (monkey hands-busy)) 
-(assert (monkey grabbed-box)))
-
-(defrule r3 (monkey near box) (monkey hands-busy) (monkey grabbed-box) => 
-(printout t "monkey goes below the banana" crlf) 
-(assert (monkey below-banana)))
-
-(defrule r4 (monkey below-banana) (monkey near box) (monkey hands-busy) (monkey grabbed-box) => 
-(printout t "monkey dropped the box below the banana" crlf) 
-(retract 6) 
-(retract 7) 
-(assert (monkey hands-free)))
-
-(defrule r5 (monkey below-banana) (monkey near box) (monkey hands-free) => 
-(printout t "monkey climbed the box below the banana" crlf) 
-(assert (monkey over the box)))
-
-(defrule r6 (monkey below-banana) (monkey near box) (monkey hands-free) (monkey over the box) => 
-(printout t "monkey can take the banana" crlf) 
-(assert (monkey can take the banana)))
-
-(defrule r6 (monkey below-banana) (monkey near box) (monkey hands-free) (monkey over the box) (monkey can take the banana) => 
-(printout t "monkey took the banana" crlf)
 ```
-### Resultados
-<p>Lo que como resultado nos muestra las siguientes impresiones de pantalla:</p>
-<img width="700" src ="src/WhatsApp Image 2022-10-02 at 8.44.48 PM (1).jpeg">Fig. 2 Resultados Obtenidos</img><br>
+<p align="center">
+<img width="700" src ="src/WhatsApp Image 2022-12-01 at 12.06.49 PM.jpeg"><br>Fig. 3 Ejecución de Persons y Sus Reglas</img>
+</p>
 
 
-## Hands On 3:
-<p>Lo que como resultado nos muestra las siguientes impresiones de pantalla:</p>
-<img width="700" src ="src/WhatsApp Image 2022-12-01 at 12.06.49 PM.jpeg">Fig. 3 Ejecución de Personas y Sus Reglas</img><br>
+```
+(defrule r1 (monkey near door) (monkey farfrom window) => 
+(printout  t "monkey goes to the box" crlf) 
+(assert (monkey near box)) 
+(retract 1) 
+(retract 2))
+
+```
+
+
+```
+(defrule r1 (monkey near door) (monkey farfrom window) => 
+(printout  t "monkey goes to the box" crlf) 
+(assert (monkey near box)) 
+(retract 1) 
+(retract 2))
+
+```
+
+
+<br>
 
 ## Hands On 4-5:
 <p>Lo que como resultado nos muestra las siguientes impresiones de pantalla:</p>
+<br>
 
 ## Hands On 6:
+<br>
 
 ## KBS Project:
-
+<br>
 
