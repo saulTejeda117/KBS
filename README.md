@@ -31,6 +31,7 @@
 <p>Para esta tercer actividad, fue necesario desarrollar tres clases de Java, a traves de las cuales fuera posible ejecutar los Scripts ubicados en la carpeta del repositorio público de GitHub "agent-repo", proporcionado por el profesor, todo esto empleando la API de CLIPSJNI, para lo cual propuse las siguientes soluciones a esos problemas:
 </p>
 
+### Persons
 ```
 public class RunPersons extends Agent {
 	private Environment clips;
@@ -58,7 +59,7 @@ public class RunPersons extends Agent {
 
 ```
 
-
+### Prodcust
 ```
 public class RunProdcust extends Agent {
 	private Environment clips;
@@ -92,7 +93,7 @@ public class RunProdcust extends Agent {
 }
 ```
 
-
+### Market
 
 ```
 public class RunMarket extends Agent {
@@ -133,10 +134,15 @@ public class RunMarket extends Agent {
 <br>
 
 ## Hands On 4-5:
-<p>Lo que como resultado nos muestra las siguientes impresiones de pantalla:</p>
+<p align = 'justify'>Para las siguientes dos actividades se nos pidió implementar un Agente Emisor y un Agente Receptor, de los cuales uno de ellos (Agente Emisor) debería de enviar una serie de sintomas a manera de hechos con la sintaxis y semántica de CLIPS, mientas que el otro (Agente Receptor) contaría con una Base de Conocimientos, predefinida, con un conjunto de reglas condición-acción para diagnosticar al menos cinco enfermedades. Así mismo, se realizará un diagnostico a los sintomas de la enfermedad correspondiente. Por último, el diagnóstico se imprimirá en terminal; por el momento, no se regresa al Emisor. 
+</p>
 <br>
 
 ## Hands On 6:
+<p align = 'justify'>Ahora, para esta última actividad era necesario implementar un sistema multiagentes, el cual pudiera soportar el diagnostico Distribuido de Patologías, todo esto basado en las últimas dos actividades.
+</p>
+
+
 <br>
 
 ## KBS Project:
