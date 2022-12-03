@@ -134,9 +134,22 @@ public class RunMarket extends Agent {
 <br>
 
 ## Hands On 4-5:
-<p align = 'justify'>Para las siguientes dos actividades se nos pidió implementar un Agente Emisor y un Agente Receptor, de los cuales uno de ellos (Agente Emisor) debería de enviar una serie de sintomas a manera de hechos con la sintaxis y semántica de CLIPS, mientas que el otro (Agente Receptor) contaría con una Base de Conocimientos, predefinida, con un conjunto de reglas condición-acción para diagnosticar al menos cinco enfermedades. Así mismo, se realizará un diagnostico a los sintomas de la enfermedad correspondiente. Por último, el diagnóstico se imprimirá en terminal; por el momento, no se regresa al Emisor. 
+<p align = 'justify'>Para las siguientes dos actividades se nos pidió implementar un Agente Emisor y un Agente Receptor, de los cuales uno de ellos (Agente Emisor) debería de enviar una serie de sintomas a manera de hechos con la sintaxis y semántica de CLIPS, mientas que el otro (Agente Receptor) contaría con una Base de Conocimientos, predefinida, con un conjunto de reglas condición-acción para diagnosticar al menos cinco enfermedades. Así mismo, se realizará un diagnostico a los sintomas de la enfermedad correspondiente. Por último, el diagnóstico se imprimirá en terminal; por el momento, no se regresa al Emisor. Esto podemos encontrarlo en los códigos: <a href='https://www.clipsrules.net' target="_blank"><code>Agente Emisor</code></a> y <a href='https://www.clipsrules.net' target="_blank"><code>Agente Receptor</code></a> respectivamente.
 </p>
+
+### Emisor
+
+```
+```
+
+### Receptor
+
+```
+```
+
 <br>
+
+
 
 ## Hands On 6:
 <p align = 'justify'>Ahora, para esta última actividad era necesario implementar un sistema multiagentes, el cual pudiera soportar el diagnostico Distribuido de Patologías, todo esto basado en las últimas dos actividades.
