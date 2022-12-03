@@ -4,10 +4,10 @@
 | ------------- |
 | <a href='https://github.com/saulTejeda117/KBS/blob/main/README.md#hands-on-1-clips-setting-up'><p>Hands On 1: CLIPS Setting Up</p></a>|
 | <a href='https://github.com/saulTejeda117/KBS/blob/main/README.md#hands-on-2-monkey-and-bananas'><p>Hands On 2: Monkey and Bananas</p></a>|
-| <a href='https://github.com/saulTejeda117/KBS/edit/main/README.md#hands-on-3'><p>Hands On 3: CLIPS Scripts</p></a>|
-| <a href='https://github.com/saulTejeda117/KBS/edit/main/README.md#hands-on-4-5'><p>Hands On 4-5: CLIPS Scripts</p></a>|
-| <a href='https://github.com/saulTejeda117/KBS/edit/main/README.md#hands-on-6'><p>Hands On 6: CLIPS Scripts</p></a>|
-| <a href='https://github.com/saulTejeda117/KBS/edit/main/README.md#kbs-project'><p>KBS Project</p></a>|
+| <a href='https://github.com/saulTejeda117/KBS#hands-on-3'><p>Hands On 3</p></a>|
+| <a href='https://github.com/saulTejeda117/KBS#hands-on-4-5'><p>Hands On 4-5</p></a>|
+| <a href='https://github.com/saulTejeda117/KBS#hands-on-6'><p>Hands On 6</p></a>|
+| <a href='https://github.com/saulTejeda117/KBS#kbs-project'><p>KBS Project</p></a>|
 
 ## Hands On 1: CLIPS Setting Up
 <p align = 'justify'> Esta pirimera actividad de la clase consistió en llevar a cabo el proceso de instalación del lenguaje de programación basado en reglas <a href='https://www.clipsrules.net' target="_blank"><code>CLIPS</code></a> en su versión 6.24, para posteriormente realizar el setting up asociado:</p>
