@@ -271,6 +271,10 @@ public class ContractNetInitiatorAgent extends Agent {
 
 <p align = 'justify'>Como parte del proyecto final de la clase reutilizamos el Hands-on 4 y el ejemplo de booktrading de jade, que ra parte de los ejemplos de jade: "jade/src/examples/booktrading", todo esto con el objetivo de implementar un Sistema Multiagentes con comunicación mediada  para soportar Razonamiento distribuido y Análisis de conductas de consumo.
 </p>
+<p align="center">
+<img width="700" src ="src/WhatsApp Image 2022-12-04 at 5.28.06 PM.jpeg"><br>Fig. 3 Arquitectura Multiagentes</img>
+</p>
+<br>
 
 
 <br>
