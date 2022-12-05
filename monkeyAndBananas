@@ -10,4 +10,4 @@
 
 (defrule r6 (monkey below-banana) (monkey near box) (monkey hands-free) (monkey over the box) => (printout t "monkey can take the banana" crlf) (assert (monkey can take the banana)))
 
-(defrule r6 (monkey below-banana) (monkey near box) (monkey hands-free) (monkey over the box) (monkey can take the banana) => (printout t "monkey took the banana" crlf)
+(defrule r7 (monkey below-banana) (monkey near box) (monkey hands-free) (monkey over the box) (monkey can take the banana) => (printout t "monkey took the banana" crlf)
