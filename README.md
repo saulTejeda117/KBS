@@ -34,7 +34,7 @@
 
 
 <p align="center">
-<img width="700" src ="src/WhatsApp Image 2022-10-02 at 8.44.48 PM (1).jpeg"><br>Fig. 2 Resultados Monkey and Bananas</img>
+<img width="700" src ="src/WhatsApp Image 2022-12-05 at 2.01.28 PM.jpeg"><br>Fig. 2 Resultados Monkey and Bananas</img>
 </p>
 
 <br>
