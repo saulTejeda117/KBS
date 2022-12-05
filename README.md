@@ -18,7 +18,8 @@
 
 ## Hands On 2: Monkey and Bananas
 
-<p align = 'justify'>Este ejercicio consistió en completar el problema del mono y las banas, desarrollado durante la clase, por medio del lenguaje de programación basado en reglas <a href='https://www.clipsrules.net' target="_blank"><code>CLIPS</code></a>. Planteamiento del problema a resolver: Un mono está en una habitación, en el techo de dicha habitación se encuentra un racimo de plátanos, que está fuera del alcance del mono. Sin embargo, en la habitación también hay una silla, la cual puede ayudar al simio a alcanzar los plátanos, de manera que el mono debe de moverse y colocar la silla bajo los platanos para así poder alcanzarlos. Con esto en mente, desarrollamos la secuencia correcta de pasos a seguir para cumplir el objetivo tal y como se aprecia en el  código 
+<p align = 'justify'>Este ejercicio consistió en completar el problema del mono y las banas, desarrollado durante la clase, por medio del lenguaje de programación basado en reglas <a href='https://www.clipsrules.net' target="_blank"><code>CLIPS</code></a>. Planteamiento del problema a resolver: Un mono está en una habitación, en el techo de dicha habitación se encuentra un racimo de plátanos, que está fuera del alcance del mono. Sin embargo, en la habitación también hay una silla, la cual puede ayudar al simio a alcanzar los plátanos, de manera que el mono debe de moverse y colocar la silla bajo los platanos para así poder alcanzarlos. Con esto en mente, desarrollamos la secuencia correcta de pasos a seguir para cumplir el objetivo tal y como se aprecia en el  código <a href='https://github.com/saulTejeda117/KBS/blob/main/monkeyAndBananas' target="_blank"><code>Monkey and Bananas</code></a>, obteniendo el siguiente resultados:</p>
+
 
 ```
 (defrule r1 (monkey near door) (monkey farfrom window) => (printout  t "monkey goes to the box" crlf) (assert (monkey near box)) (retract 1) (retract 2))
@@ -31,7 +32,6 @@
 ```
 
 
-<a href='https://github.com/saulTejeda117/KBS/blob/main/monkeyAndBananas' target="_blank"><code>Monkey and Bananas</code></a>, obteniendo el siguiente resultados:</p>
 
 <p align="center">
 <img width="700" src ="src/WhatsApp Image 2022-10-02 at 8.44.48 PM (1).jpeg"><br>Fig. 2 Resultados Monkey and Bananas</img>
