@@ -2,8 +2,8 @@
 
 | Contenido |
 | ------------- |
-| <a href='https://github.com/saulTejeda117/KBS/blob/main/README.md#hands-on-1-clips-setting-up'><p>Hands On 1: CLIPS Setting Up</p></a>|
-| <a href='https://github.com/saulTejeda117/KBS/blob/main/README.md#hands-on-2-monkey-and-bananas'><p>Hands On 2: Monkey and Bananas</p></a>|
+| <a href='https://github.com/saulTejeda117/KBS#hands-on-1-clips-setting-up'><p>Hands On 1: CLIPS Setting Up</p></a>|
+| <a href='https://github.com/saulTejeda117/KBS#hands-on-2-monkey-and-bananas'><p>Hands On 2: Monkey and Bananas</p></a>|
 | <a href='https://github.com/saulTejeda117/KBS#hands-on-3'><p>Hands On 3</p></a>|
 | <a href='https://github.com/saulTejeda117/KBS#hands-on-4-5'><p>Hands On 4-5</p></a>|
 | <a href='https://github.com/saulTejeda117/KBS#hands-on-6'><p>Hands On 6</p></a>|
@@ -282,7 +282,7 @@ public class ContractNetInitiatorAgent extends Agent {
 
 ## KBS Project:
 
-<p align = 'justify'>Como parte del proyecto final de la clase reutilizamos el Hands-on 4 y el ejemplo de booktrading de jade, que ra parte de los ejemplos de jade: "jade/src/examples/booktrading", todo esto con el objetivo de implementar un Sistema Multiagentes con comunicación mediada  para soportar Razonamiento distribuido y Análisis de conductas de consumo.
+<p align = 'justify'>Como parte del proyecto final de la clase reutilizamos el Hands-on 4 y el ejemplo de booktrading de jade, que ra parte de los ejemplos de jade: "jade/src/examples/booktrading", todo esto con el objetivo de implementar un Sistema Multiagentes con comunicación mediada  para soportar Razonamiento distribuido y Análisis de conductas de consumo, dicho proyecto es posible encontrarlo en el siguiente directorio:<a href='https://github.com/saulTejeda117/KBS/tree/main/KBS%20Project' target="_blank"><code>Agente Receptor</code></a>.
 </p>
 <p align="center">
 <img width="700" src ="src/WhatsApp Image 2022-12-04 at 5.28.06 PM.jpeg"><br>Fig. 3 Arquitectura Multiagentes del proyecto de booktrading</img>
