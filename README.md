@@ -50,7 +50,7 @@ public class RunPersons extends Agent {
 	private Environment clips;
 
 	public void loadKnowledge(){
-		System.out.println("**** Program to Load and Persons ****"); 
+		System.out.println("**** Program to Load Persons ****"); 
         try{
           // Cargamos la base de conocimiento
             clips.build("(deftemplate person(slot name)(multislot gender)(slot age (type INTEGER))(slot partner))");
@@ -78,7 +78,7 @@ public class RunProdcust extends Agent {
 	private Environment clips;
 
 	public void loadKnowledge(){
-		System.out.println("**** Program to Load and Prodcust ****"); 
+		System.out.println("**** Program to Load Prodcust ****"); 
           try{
             // Cargamos la base de conocimiento
               clips.build("(deftemplate product (slot part-number) (slot name) (slot category) (slot price))");
@@ -113,7 +113,7 @@ public class RunMarket extends Agent {
 	private Environment clips;
 
 	public void loadKnowledge(){
-		System.out.println("**** Program to Load and Run Market****"); 
+		System.out.println("**** Program to Load Market****"); 
         try{
             clips.build("(deftemplate customer (slot customer-id) (multislot name) (multislot address)(slot phone))");
             clips.build("(deftemplate product (slot part-number) (slot name) (slot category) (slot price))");
